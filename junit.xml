@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="0" time="3.229">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-10-13T12:12:47" time="2.787" tests="2">
+    <testcase classname=" searches and confirms a one-way booking with validated passenger details" name=" searches and confirms a one-way booking with validated passenger details" time="0.62">
+    </testcase>
+    <testcase classname=" includes a return date in a round-trip itinerary" name=" includes a return date in a round-trip itinerary" time="0.15">
+    </testcase>
+  </testsuite>
+</testsuites>

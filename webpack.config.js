@@ -3,6 +3,10 @@ const HtmlWebpackPlugin= require('html-webpack-plugin');
 module.exports = {
     entry: './src/index.js',
 
+    devServer: {
+        historyApiFallback: true,
+    },
+
     output: {
         path: path.join(__dirname,"/dist"),
         filename: "index_bundle.js",

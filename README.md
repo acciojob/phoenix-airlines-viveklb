@@ -1,22 +1,21 @@
-# Phoneix Airlines
+# Phoenix Airlines
 
-#### Create an application using redux for Phoenix Airlines, which has flight search and booking functionality.
+A responsive flight-search and booking experience built with React and Redux.
 
-Your app must contain following routes:
+## Run locally
 
-- '/' for landing page. (<a target='_blank' href='https://storage.googleapis.com/acciojob-open-file-collections/landing.png'>landing_page</a>)
+```sh
+npm install
+npm start
+```
 
-- '/flight-search' to select one-way or Round trip, Source and Destination cities, Date of journey. 
-  
-  Use class name `book-flight` for booking a flight from the results shown.
-(<a target='_blank' href='https://storage.googleapis.com/acciojob-open-file-collections/flight-search.png'>filght-search_page</a>,
-<a target='_blank' href='https://storage.googleapis.com/acciojob-open-file-collections/flight-search-1.png'>filght-search-1_page</a>,
-<a target='_blank' href='https://storage.googleapis.com/acciojob-open-file-collections/flight-search-2.png'>filght-search-2_page</a>,
-<a target='_blank' href='https://storage.googleapis.com/acciojob-open-file-collections/flight-search-3.png'>filght-search-3_page</a>
-)
+The development server runs at `http://localhost:8080`. Create a production build with `npm run build`.
 
-- '/flight-booking' to enter user details and confirm booking. (<a target='_blank' href='https://storage.googleapis.com/acciojob-open-file-collections/flight-booking.png'>flight-booking_page</a>)
+## Booking flow
 
-- '/confirmation' to show confirmation status.  (<a target='_blank' href='https://storage.googleapis.com/acciojob-open-file-collections/confirmation.png'>confirmation_page</a>)
+- `/` — Landing page and flight-search entry points.
+- `/flight-search` — Search one-way or round-trip journeys and select a flight.
+- `/flight-booking` — Enter and validate passenger contact details.
+- `/confirmation` — Review the confirmed itinerary and booking code.
 
-<img src='https://storage.googleapis.com/acciojob-open-file-collections/phoenix-booking.gif' width='400px'/>
+Flight options are demo inventory. Redux holds the selected itinerary and passenger details for the current browser session.
